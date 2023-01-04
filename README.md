@@ -5,7 +5,7 @@
 
 **Технологии, используемые в проекте**
 
-*HTML5;
-*CSS3;
-*Flexbox;
-*Grid;
+* HTML5;
+* CSS3;
+* Flexbox;
+* Grid;
