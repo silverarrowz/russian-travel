@@ -1,0 +1,36 @@
+.place__link {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    transition: opacity .3s;
+}
+
+.place__link:hover {
+    opacity: .8;
+}
+
+@media screen and (min-width: 731px) and (max-width: 768px) {
+    .place__link {
+        grid-area: link;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__link {
+        grid-area: link;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .place__link {
+        grid-area: link;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__link {
+        grid-area: link;
+    }
+}

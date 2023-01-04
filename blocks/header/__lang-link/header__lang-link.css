@@ -1,0 +1,32 @@
+.header__lang-link {
+    margin-right: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    transition: font-size .3s, opacity .5s;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+.header__lang-link:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
+
+@media screen and (min-width: 426px) and (max-width: 730px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
+}
+
