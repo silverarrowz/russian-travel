@@ -5,27 +5,9 @@
     margin: 0 auto 24px;
 }
 
-@media screen and (max-width: 425px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
-@media screen and (min-width: 426px) and (max-width: 730px) {
+@media screen and (max-width: 730px) {
     .footer {
-        display: flex;
         flex-direction: column;
-        width: 90%;
-        margin: 0 auto 24px;
-    }
-}
-
-@media screen and (min-width: 731px) and (max-width: 768px) {
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-        margin: auto;
     }
 }

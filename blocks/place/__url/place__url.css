@@ -1,21 +1,11 @@
+.place__url {
+    grid-area: url;
+    align-self: flex-end;
+}
+
 @media screen and (max-width: 425px) {
     .place__url {
-        padding-left: 16px;
-        margin: 0 0 32px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 730px) {
-    .place__url {
-        max-width: 90%;
-        margin: 0 auto 32px;
-    }
-}
-
-@media screen and (min-width: 550px) and (max-width: 730px) {
-
-    .place__url {
-        grid-area: url;
-        margin: 0;
+        width: 90%;
+        margin: 0 auto 0;
     }
 }

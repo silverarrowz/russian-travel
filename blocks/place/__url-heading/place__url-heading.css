@@ -5,28 +5,3 @@
     text-transform: uppercase;
     color: #aaa;
 }
-
-@media screen and (min-width: 731px) and (max-width: 768px) {
-    .place__url-heading {
-        grid-area: url;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .place__url-heading {
-        grid-area: url;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .place__url-heading {
-        grid-area: url;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .place__url-heading {
-        grid-area: url;
-    }
-}

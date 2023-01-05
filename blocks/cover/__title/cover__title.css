@@ -3,51 +3,24 @@
     max-width: 560px;
     font-size: 72px;
     font-weight: 900;
-    line-height: 1.1;
+    line-height: 1.05;
     z-index: 1;
+    transition: font-size .3s;
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
     .cover__title {
+        max-width: 90%;
         margin: 0 0 16px;
-        max-width: 90%;
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 1.1;
-        z-index: 1;
+        font-size: 56px;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 730px) {
+  @media screen and (max-width: 425px) {
     .cover__title {
-        margin: 0 0 16px;
-        max-width: 90%;
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 1.1;
-        z-index: 1;
+      font-size: 32px;
+      line-height: 1.1;
+      max-width: 288px;
     }
-}
-
-@media screen and (min-width: 731px) and (max-width: 768px) {
-    .cover__title {
-        margin: 0 0 32px;
-        max-width: 90%;
-        font-size: 72px;
-        font-weight: 900;
-        line-height: 1.1;
-        z-index: 1;
-    }
-}
-
-@media screen and (min-width: 731px) and (max-width: 768px) {
-    .cover__title {
-        margin: 0 0 32px;
-        max-width: 90%;
-        font-size: 72px;
-        font-weight: 900;
-        line-height: 1.1;
-        z-index: 1;
-    }
-}
-
+  }
