@@ -7,7 +7,7 @@
     transition: font-size 0.3s;
 }
 
-@media screen and (min-width: 550px) and (max-width: 730px) {
+@media screen and (max-width: 730px) {
     .lead__subtitle {
         margin: 0 0 40px;
         font-size: 24px;

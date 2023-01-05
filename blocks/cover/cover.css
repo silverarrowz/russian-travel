@@ -1,6 +1,6 @@
 .cover {
     min-height: 740px;
-    max-width: 90%;
+    max-width: calc(100% - 96px);
     margin: 0 auto 92px;
 
     text-align: center;

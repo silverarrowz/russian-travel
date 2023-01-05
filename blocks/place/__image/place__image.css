@@ -6,8 +6,3 @@
      aspect-ratio: 1/1;
  }
 
-
- @media screen and (max-width: 730px) {
-     .place__image {
-     }
- }

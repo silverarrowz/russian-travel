@@ -5,15 +5,25 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     align-self: flex-start;
-    width: 75%;
+    width: calc(100% - 96px);
     text-align: left;
     margin: 0 auto 0;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image-caption {
-        width: 90%;
-        margin: 0 auto 0;
-        text-align: left;
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-caption {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-caption {
+        width: calc(100% - 32px);
     }
 }
