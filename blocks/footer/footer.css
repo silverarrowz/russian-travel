@@ -15,6 +15,12 @@
 
 @media screen and (max-width: 690px) {
     .footer {
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
         flex-direction: column;
         width: 100%;
     }
