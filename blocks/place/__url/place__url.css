@@ -3,9 +3,9 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 620px) {
     .place__url {
-        width: 100%;
+        width: calc(100% - 32px);
         margin: 0 auto 0;
     }
 }

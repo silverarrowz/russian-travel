@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: calc(100% - 96px);
     margin: 0 auto 24px;
 }
@@ -12,15 +13,7 @@
 }
 
 
-@media screen and (max-width: 730px) {
-    .footer {
-        flex-direction: column;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
     .footer {
         flex-direction: column;
         width: 100%;

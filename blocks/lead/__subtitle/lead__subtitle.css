@@ -2,9 +2,15 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 1.2;
-    margin: 0 auto 56px;
+    margin: 0 auto 64px;
     max-width: 640px;
     transition: font-size 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 0 0 56px;
+    }
 }
 
 @media screen and (max-width: 730px) {
@@ -20,6 +26,5 @@
         font-size: 16px;
         line-height: 1.25;
         max-width: 288px;
-        margin: 0 0 40px;
     }
 }

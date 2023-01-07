@@ -9,7 +9,6 @@
     line-height: 1.1;
 }
 
-
 @media screen and (max-width: 768px) {
     .footer__links {
         display: grid;
@@ -17,16 +16,14 @@
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 690px) {
     .footer__links {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 425px) {
     .footer__links {
-        display: grid;
         grid-template-columns: 1fr;
         gap: 32px;
         font-size: 24px;
